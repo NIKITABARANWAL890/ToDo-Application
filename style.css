@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.inputData{
+    display: flex;
+    gap: 1rem;
+
+    input{
+        border-radius: 8px;
+        border: none;
+        width: 400px;
+        padding: 0.6rem 1rem;
+        font-size: 18px;
+    }
+    li,button{
+        padding: 0.4rem;
+        border-radius: 6px;
+        border: none;
+        background-color:rgb(255, 247, 0) ;
+        font-weight: 500;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgba(246, 255, 0, 0.814);
+    }
+}
+.main_todo_div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.todo-lists-elem{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.deleteBtn{
+    background-color: black;;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
